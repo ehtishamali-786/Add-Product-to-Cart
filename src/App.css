@@ -1,0 +1,73 @@
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Products{
+  width: 40%;
+  padding: 30px;
+  height: max-content;
+  background-color: #ffffff;
+  box-shadow:  rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;;
+}
+.product-header{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.add-product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-input-field{
+  width: 100%;
+}
+input{
+  width: 95%;
+  padding: 7px;
+}
+.add-button{
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #1061c4;
+  width: 55px;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+justify-content: center;
+}
+.cartItems{
+  width: 95%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartList{
+  margin-top: 10px;
+}
+.cartItem-Quantity{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 13%;
+  margin-right: 10px;
+}
+.increaseQuantity{
+  padding: 2px;
+  cursor: pointer;
+}
+.itemQuantity{
+  background-color: #F4F4F4;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-content:  center;
+  padding: 0px 4px 0px 4px;
+}
